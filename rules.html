@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll to Accept</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body style="background-color: #24242c; color: white;">
+    <div class="container" style="padding: 20px;">
+        <h1>Instructions to play Handcricket</h1>
+        <div style="height: 300px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px;">
+            <!-- Your terms and conditions content goes here -->
+            <p>
+           
+The game is played between two players, a batsman and a bowler.<br>
+The batsman and bowler simultaneously show a number between 1 and 6 using their fingers.<br>
+If the numbers match, the batsman is out.<br>
+If the numbers do not match, the batsman scores the number they showed.<br>
+            </p>
+        </div>
+        <div>
+            <input type="checkbox" id="acceptCheckbox" class="mr-2"> I undestand the rules
+        </div>
+        <button id="acceptButton" class="btn btn-primary" disabled>Lets play</button>
+    </div>
+
+    <script>
+        const acceptCheckbox = document.getElementById("acceptCheckbox");
+        const acceptButton = document.getElementById("acceptButton");
+
+        acceptCheckbox.addEventListener("change", function() {
+            acceptButton.disabled = !this.checked;
+        });
+
+        acceptButton.addEventListener("click", function() {
+            window.location.href = "index.html";
+        });
+    </script>
+</body>
+</html>
