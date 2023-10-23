@@ -9,7 +9,7 @@ var sts3 = document.getElementById("status3");
 
 function addToScore(val) {
     if (userBatting) {
-        compChoice = Math.floor(Math.random() * 6);
+        compChoice = Math.floor(Math.random() * 6) + 1;
         document.getElementById("userChoice").innerHTML = "You: " + val;
         document.getElementById("compChoice").innerHTML = "Computer: " + compChoice;
 
@@ -20,8 +20,13 @@ function addToScore(val) {
             scr += val;
             document.getElementById("score").innerHTML = "Your Score: " + scr;
         }
+
+        // Check for the winner after every user's turn
+        if (compScr > scr) {
+            compWin();
+        }
     } else if (compBatting) {
-        compChoice = Math.floor(Math.random() * 6);
+        compChoice = Math.floor(Math.random() * 6) + 1;
         document.getElementById("compChoice").innerHTML = "Computer: " + compChoice;
         document.getElementById("userChoice").innerHTML = "You: " + val;
 
@@ -32,14 +37,13 @@ function addToScore(val) {
             compScr += compChoice; // Add computer's choice to its score
             document.getElementById("compScore").innerHTML = "Computer score: " + compScr;
         }
-        
-        // Check for the winner only after the computer's turn
+
+        // Check for the winner after every computer's turn
         if (compScr > scr) {
             compWin();
         }
     }
 }
-
 
 function playerOut() {
     sts.innerHTML = "Out! The computer will now bat.";
@@ -51,13 +55,13 @@ function playerOut() {
     function myMsg() {
         sts.innerHTML = "Computer is Batting ";
     }
-    
+
     document.getElementById("userChoice").innerHTML = '';
 }
 
 function compOut() {
     if (compScr > scr) {
-    sts.innerHTML = "Computer wins";
+        sts.innerHTML = "Computer wins";
     } else {
         userWin();
     }
@@ -68,8 +72,9 @@ function userWin() {
     sts2.innerHTML = "You win";
 }
 
-
-
+function compWin() {
+    sts.innerHTML = "Computer wins";
+}
 
 function closeAll() {
     document.getElementById("btn1").style.visibility = "hidden";
