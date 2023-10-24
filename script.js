@@ -61,7 +61,7 @@ function playerOut() {
 
 function compOut() {
     if (compScr > scr) {
-        sts.innerHTML = "Computer wins";
+        sts.innerHTML = "Computer Wins";
     } else {
         userWin();
     }
@@ -69,11 +69,11 @@ function compOut() {
 
 function userWin() {
     sts.innerHTML = '';
-    sts2.innerHTML = "You win";
+    sts2.innerHTML = "You Win";
 }
 
 function compWin() {
-    sts.innerHTML = "Computer wins";
+    sts.innerHTML = "Computer Wins";
 }
 
 function closeAll() {
