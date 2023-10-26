@@ -1,4 +1,4 @@
-# Handcricket game project for the course: Foundations of Software Enginnering - CPSC-8710
+# Handcricket game project for the course: Foundations of Software Engineering - CPSC-8710
 
 ## Table of Contents
 1. [Game Objective and Rules](#game-objective-and-rules)
@@ -9,16 +9,18 @@
 
 ## Game Objective and Rules
 - The Hand Cricket game is a simple yet fun game played between two players - a batsman and a bowler.
-- The batsman and bowler simultaneously show a number between 1 and 6 using their fingers.
-- If the numbers match, the batsman is out.
+- Using their fingers, the batsman and bowler simultaneously show a number between 1 and 6.
+- If the numbers get matched, then the batsman is out.
 - If the numbers do not match, the batsman scores the number they showed.
 - The objective is to outscore your opponent by predicting their moves and trying to stay in as the batsman for as long as possible.
+- This process continues until both the batsman gets out and the player with the highest number of runs is the winner
 
 ## Technology Stack Used
 - **HTML**: For the game's user interface.
 - **CSS**: For styling the game's interface.
 - **JavaScript**: To handle the game logic and user interactions.
 - **Python**: To implement the algorithm for playing the game.
+- **Bootstrap**:For designing the game's interface.
 
 ## Setup and Deployment Instructions
 1. **Clone the Repository**: git clone https://github.com/sreerampaladugu10/Handcricket.git
@@ -38,13 +40,13 @@
 In the process of designing and developing the Hand Cricket game, we encountered several challenges and learned valuable lessons:
 
 - **Challenges Faced**:
-- Developing a Hand Cricket game can be a fun and rewarding project, but it can also come with its share of challenges. Here are some common challenges we have faced while developing a Hand Cricket game:
-- Game Logic: It can be difficult to make sure that the logic and rules of the game are applied correctly. There are certain rules for Hand Cricket, and following them is crucial to having a real gaming experience.
+- Developing a Hand Cricket game can be a fun and rewarding project but can also come with challenges. Here are some common challenges we have faced while developing a Hand Cricket game:
+- Game Logic: It can be challenging to make sure that the logic and rules of the game are applied correctly. There are specific rules for Hand Cricket; following them is crucial to a real gaming experience.
 
 - [Mention any hurdles in implementing the Python algorithm]
 
 - **What Worked**:
-- Discussing the successful aspects of your design, development, and teamwork in the Hand Cricket game project
+- Discussing the successful aspects of our design, development, and teamwork in the Hand Cricket game project
 - User-Friendly Interface: One of the successful aspects of the project was the creation of a user-friendly and intuitive interface. The interface was designed to be visually appealing and easy to understand, making it accessible to players of all ages and skill levels.
 - Effective Game Logic: The game's core logic, which involves predicting and countering the opponent's moves, was well-implemented. It created an engaging and competitive gaming experience, keeping players involved and challenged.
 - Version Control: Utilizing Git and a version control system helped keep the project organized and allowed for easy tracking of changes. This was crucial in managing the codebase and collaborating with team members.
@@ -54,7 +56,7 @@ In the process of designing and developing the Hand Cricket game, we encountered
 
 - **What Didn't Work**:
 - [Share any aspects of the project that didn't go as planned]
-- [Discuss any code or design decisions that had to be revised]
+- [Discuss any code or design decisions that must be revised.]
 
 - **Lessons Learned**:
 - [Reflect on what you learned during the project]
