@@ -22,7 +22,7 @@
 - **HTML**: For the game's user interface.
 - **CSS**: For styling the game's interface.
 - **JavaScript**: To handle the game logic and user interactions.
-- **Python**: To implement the algorithm for guessing bumbers based on user input.
+- **Python**: To implement the algorithm for guessing numbers based on user input.
 - **Bootstrap**: CSS Framework For designing the game's interface.
 
 ## Setup and Deployment Instructions
@@ -35,7 +35,7 @@
 - Follow the on-screen instructions to play against the computer.
 
 ## Credits
-- The game was developed by [Sreeram Paladugu,Akshatha arkit and Sairamakrishnak] and is open source.
+- The game was developed by [Sreeram Paladugu, Akshatha arkit and Sairamakrishnak] and is open source.
 - Special thanks to [bootstrap Framework] for their contributions to this project.
 -picture credit background PNG Designed By Vector Illustration Canada from https://pngtree.com/freepng/cricket-player-illustration-vector-on-white-background_5293075.html?sol=downref&id=bef
 
@@ -45,13 +45,13 @@ In the process of designing and developing the Hand Cricket game, we encountered
 - **Challenges Faced**:
 - Developing a Hand Cricket game was a fun and rewarding project but can also come with challenges. Here are some common challenges we have faced while developing the Hand Cricket game:
 - Game Logic: It can be challenging to make sure that the logic and rules of the game are applied correctly. There are specific rules for Hand Cricket; following them is crucial to a real gaming experience.
-- It was difficult to simulate the hand cricket game experience digitally, as the game traditionally requires players to simultaneously show various hand gestures to indicate their chosen number. We were able to emulate this experience digitally in our game.
+- It was difficult to simulate the hand cricket game experience digitally, as the game traditionally requires players to show various hand gestures to indicate their chosen number simultaneously. We were able to emulate this experience digitally in our game.
 
 - **hurdles in implementing the Number guessing algorithm**:
- -The numbergueeser program is based on the Markov chain algorithm is a sequential model that uses the current state to predict the next state. It is based on the principle of memorylessness, which means that the next state only depends on the current state and not on the sequence of previous states.
- -If the numbers 1-6 were picked on random instead of using the Markov chain algorithm, the accuracy would be 16.67%. This is because there are 6 possible numbers that can be picked, and each number has an equal probability of being picked.
- -the markovs chain algorithm consistantly had a higher rate of accuracy compared to a random guesses from multiple tests.
- ![example of numberguesser program in action  ](<Screenshot 2023-10-27 at 3.02.29 PM.png>)
+ -The number guesser program is based on the Markov chain algorithm, which is a sequential model that uses the current state to predict the next state. It is based on the principle of memorylessness, which means that the next state only depends on the current state and not on the sequence of previous states.
+ -If the numbers 1-6 were picked randomly instead of using the Markov chain algorithm, the accuracy would be 16.67%. This is because there are 6 possible numbers that can be picked, and each number has an equal probability of being picked.
+ -the Markovs chain algorithm consistently had a higher rate of accuracy compared to random guesses from multiple tests.
+ ![example of number guesser program in action  ](<Screenshot 2023-10-27 at 3.02.29 PM.png>)
 -Future work: We plan to implement a Markov chain algorithm in our game to predict user inputs based on their previous inputs. This will make the game more exciting and challenging for players.
  
 
@@ -61,30 +61,35 @@ In the process of designing and developing the Hand Cricket game, we encountered
 - Effective Game Logic: The game's core logic, which involves predicting and countering the opponent's moves, was well-implemented. It created an engaging and competitive gaming experience, keeping players involved and challenged.
 - Version Control: Utilizing Git and a version control system helped keep the project organized and allowed for easy tracking of changes. This was crucial in managing the codebase and collaborating with team members.
 - Testing and bug fixing: Strict testing protocols and efficient bug-repair techniques were in place. In addition to improving the overall user experience, this guaranteed the game was reliable and devoid of serious bugs.
-- effective coding techniques used : Our 'Reset/Restart Game' button offers a user-friendly experience by refreshing the page to start a new game, ensuring simplicity and compatibility across various browsers and devices.
+- effective coding techniques used: Our 'Reset/Restart Game' button offers a user-friendly experience by refreshing the page to start a new game, ensuring simplicity and compatibility across various browsers and devices.
 - Algorithm Development: The development of the Python algorithm for simulating the opponent's moves was a significant achievement. It added an element of unpredictability to the game and made the single-player mode enjoyable and challenging.
 
 - **What Didn't Work**:
-- User Interface Issues: Although creating an intuitive user interface is crucial, things don't always go as to plan. The interface may not be straightforward or perplexing to users, which would make it less engaging.
-- Balancing Difficulty Levels: It might be difficult to strike the correct balance between the bowler's and the batsman's chances of winning as the numbers are chosen randomly. The game could be very one-sided and less fun if the balance is off.
-- mobile compatability Issues:The game is playable on mobile browsers, but it is best to play in landscape mode to avoid compatibility issues.
+- User Interface Issues: Although creating an intuitive user interface is crucial, things don't always go as planned. The interface may not be straightforward or perplexing to users, making it less engaging.
+- Balancing Difficulty Levels: It might be difficult to strike the correct balance between the bowler's and the batsman's chances of winning as the numbers are chosen randomly. The game could be one-sided and less fun if the balance is off.
+- mobile compatibility Issues: The game is playable on mobile browsers, but it is best to play in landscape mode to avoid compatibility issues.
 
 - **code or design decisions that must be revised.**:
 - Game Logic Refinements: To ensure accuracy and fairness, the game logic, including the rules for innings, winning conditions, and scoring, may need to be updated. Finding areas that need improvement can be aided by regular testing and player input.
-- User Interface Improvements: It could be necessary to make changes to the user interface (UI) to make it more intuitive and user-friendly. This can entail making the layout better, streamlining the navigation, or giving players useful tooltips or directions.
+- User Interface Improvements: It could be necessary to make changes to the user interface (UI) to make it more intuitive and user-friendly. This can entail improving the layout, streamlining the navigation, or giving players useful tooltips or directions.
 - Error Handling and Robustness: Code for error handling might need revision to provide better error messages and to prevent unexpected crashes. It's important to anticipate and handle various error scenarios.
-- Performance Optimization: It could be required to make adjustments if the game runs slowly. This could entail employing performance-enhancing data structures or rewriting code to be more efficient.
+- Performance Optimization: It could be required to make adjustments if the game runs slowly. This could entail employing performance-enhancing data structures or rewriting code more efficiently.
  
 - **Lessons Learned**:
-- Rules Clarity is Crucial:It is critical to establish a precise and unambiguous set of guidelines. By ensuring that everyone is aware of the rules of the game, confusion and arguments are minimized.
-- Balancing the Game: A big issue lies in balancing the game such that both the computer and the batsman are treated fairly. To attain this balance, it could be required to make adjustments to the scoring system and guidelines.
+- Rules Clarity is Crucial: It is critical to establish a precise and unambiguous set of guidelines. By ensuring that everyone is aware of the rules of the game, confusion and arguments are minimized.
+- Balancing the Game: A big issue lies in balancing the game so that the computer and the batsman are treated fairly. To attain this balance, it could be required to make adjustments to the scoring system and guidelines.
 - Scoring System: Create a scoring system that recognizes and rewards accurate bowling and hitting. As a result, the game may become more competitive and interesting.
-- Encourage Inclusivity: Make sure that your game is accessible and inclusive to players of all ages and skill levels.
+- Encourage Inclusivity: Ensure your game is accessible and inclusive to players of all ages and skill levels.
 - Testing and Feedback: Testing the game frequently with various player groups might aid in finding bugs and enhancing gameplay. Be receptive to criticism and ready to make the required adjustments.
 
--  **how these lessons can be applied to future projects**:
+-  **How these lessons can be applied to future projects**:
 - Continuous Improvement: Make it a constant goal to optimize and improve your initiatives. Apply the lessons you've learned from the past to your upcoming endeavors.
 - Record Keeping: Maintaining documentation of project progress, milestones, and data can facilitate performance analysis and enable data-driven decision-making for subsequent projects.
 - Variation and Creativity: Encourage your teams to solve problems creatively. Motivate your team members to think creatively and unconventionally to solve problems.
 
 The Hand Cricket game project was an enjoyable experience, and we look forward to further improvements and collaborations in the future. We hope you have as much fun playing the game as we did creating it!
+
+## Contributors:
+Sreeram Paladugu
+Akshatha Arkit
+Sai Ramakrishna komaravolu
