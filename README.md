@@ -90,6 +90,6 @@ In the process of designing and developing the Hand Cricket game, we encountered
 The Hand Cricket game project was an enjoyable experience, and we look forward to further improvements and collaborations in the future. We hope you have as much fun playing the game as we did creating it!
 
 ## Contributors:
-Sreeram Paladugu
-Akshatha Arkit
-Sai Ramakrishna komaravolu
+* Sreeram Paladugu
+* Akshatha Arkit
+* Sai Ramakrishna komaravolu
