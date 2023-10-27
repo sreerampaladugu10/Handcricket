@@ -1,4 +1,6 @@
 # Handcricket game project for the course: Foundations of Software Engineering - CPSC-8710
+## link to play the game 
+-https://sreerampaladugu10.github.io/Handcricket/
 
 ## Table of Contents
 1. [Game Objective and Rules](#game-objective-and-rules)
@@ -20,12 +22,11 @@
 - **HTML**: For the game's user interface.
 - **CSS**: For styling the game's interface.
 - **JavaScript**: To handle the game logic and user interactions.
-- **Python**: To implement the algorithm for playing the game.
-- **Bootstrap**:For designing the game's interface.
+- **Python**: To implement the algorithm for guessing bumbers based on user input.
+- **Bootstrap**: CSS Framework For designing the game's interface.
 
 ## Setup and Deployment Instructions
 1. **Clone the Repository**: git clone https://github.com/sreerampaladugu10/Handcricket.git
-
 
 2. **Open the Game**:
 - Open the `index.html` file in your web browser to play the game.
@@ -34,33 +35,40 @@
 - Follow the on-screen instructions to play against the computer.
 
 ## Credits
-- The game was developed by [Your Name] and is open source.
-- Special thanks to [Name of any libraries or assets you used] for their contributions to this project.
+- The game was developed by [Sreeram Paladugu,Akshatha arkit and Sairamakrishnak] and is open source.
+- Special thanks to [bootstrap Framework] for their contributions to this project.
+-picture credit background PNG Designed By Vector Illustration Canada from https://pngtree.com/freepng/cricket-player-illustration-vector-on-white-background_5293075.html?sol=downref&id=bef
 
 ## Reflection
 In the process of designing and developing the Hand Cricket game, we encountered several challenges and learned valuable lessons:
 
 - **Challenges Faced**:
-- Developing a Hand Cricket game can be a fun and rewarding project but can also come with challenges. Here are some common challenges we have faced while developing a Hand Cricket game:
+- Developing a Hand Cricket game was a fun and rewarding project but can also come with challenges. Here are some common challenges we have faced while developing the Hand Cricket game:
 - Game Logic: It can be challenging to make sure that the logic and rules of the game are applied correctly. There are specific rules for Hand Cricket; following them is crucial to a real gaming experience.
+- It was difficult to simulate the hand cricket game experience digitally, as the game traditionally requires players to simultaneously show various hand gestures to indicate their chosen number. We were able to emulate this experience digitally in our game.
 
-- **hurdles in implementing the Python algorithm**:
-- Input Validation: One challenge is making sure that user inputs are legitimate and stopping cheating or bad moves. User selections must be verified, and mistakes must be handled politely.
-- Error Handling: To avoid unanticipated crashes or defects, it is imperative to implement effective error handling. You must foresee any problems and respond to them tactfully.
+- **hurdles in implementing the Number guessing algorithm**:
+ -The numbergueeser program is based on the Markov chain algorithm is a sequential model that uses the current state to predict the next state. It is based on the principle of memorylessness, which means that the next state only depends on the current state and not on the sequence of previous states.
+ -If the numbers 1-6 were picked on random instead of using the Markov chain algorithm, the accuracy would be 16.67%. This is because there are 6 possible numbers that can be picked, and each number has an equal probability of being picked.
+ -the markovs chain algorithm consistantly had a higher rate of accuracy compared to a random guesses from multiple tests.
+ ![example of numberguesser program in action  ](<Screenshot 2023-10-27 at 3.02.29 PM.png>)
+-Future work: We plan to implement a Markov chain algorithm in our game to predict user inputs based on their previous inputs. This will make the game more exciting and challenging for players.
+ 
+
 - **What Worked**:
 - Discussing the successful aspects of our design, development, and teamwork in the Hand Cricket game project
 - User-Friendly Interface: One of the successful aspects of the project was the creation of a user-friendly and intuitive interface. The interface was designed to be visually appealing and easy to understand, making it accessible to players of all ages and skill levels.
 - Effective Game Logic: The game's core logic, which involves predicting and countering the opponent's moves, was well-implemented. It created an engaging and competitive gaming experience, keeping players involved and challenged.
 - Version Control: Utilizing Git and a version control system helped keep the project organized and allowed for easy tracking of changes. This was crucial in managing the codebase and collaborating with team members.
 - Testing and bug fixing: Strict testing protocols and efficient bug-repair techniques were in place. In addition to improving the overall user experience, this guaranteed the game was reliable and devoid of serious bugs.
-- [Highlight any effective coding techniques]
+- effective coding techniques used : Our 'Reset/Restart Game' button offers a user-friendly experience by refreshing the page to start a new game, ensuring simplicity and compatibility across various browsers and devices.
 - Algorithm Development: The development of the Python algorithm for simulating the opponent's moves was a significant achievement. It added an element of unpredictability to the game and made the single-player mode enjoyable and challenging.
 
 - **What Didn't Work**:
-- [Share any aspects of the project that didn't go as planned]
 - User Interface Issues: Although creating an intuitive user interface is crucial, things don't always go as to plan. The interface may not be straightforward or perplexing to users, which would make it less engaging.
-- Balancing Difficulty Levels: It might be difficult to strike the correct balance between the bowler's and the batsman's chances of winning. The game could become one-sided and less fun if the balance is off.
-- Performance Issues: The game may not run smoothly on all platforms, especially older technology, depending on how intricate it is. It can take a lot of time to optimize performance.
+- Balancing Difficulty Levels: It might be difficult to strike the correct balance between the bowler's and the batsman's chances of winning as the numbers are chosen randomly. The game could be very one-sided and less fun if the balance is off.
+- mobile compatability Issues:The game is playable on mobile browsers, but it is best to play in landscape mode to avoid compatibility issues.
+
 - **code or design decisions that must be revised.**:
 - Game Logic Refinements: To ensure accuracy and fairness, the game logic, including the rules for innings, winning conditions, and scoring, may need to be updated. Finding areas that need improvement can be aided by regular testing and player input.
 - User Interface Improvements: It could be necessary to make changes to the user interface (UI) to make it more intuitive and user-friendly. This can entail making the layout better, streamlining the navigation, or giving players useful tooltips or directions.
@@ -73,6 +81,7 @@ In the process of designing and developing the Hand Cricket game, we encountered
 - Scoring System: Create a scoring system that recognizes and rewards accurate bowling and hitting. As a result, the game may become more competitive and interesting.
 - Encourage Inclusivity: Make sure that your game is accessible and inclusive to players of all ages and skill levels.
 - Testing and Feedback: Testing the game frequently with various player groups might aid in finding bugs and enhancing gameplay. Be receptive to criticism and ready to make the required adjustments.
+
 -  **how these lessons can be applied to future projects**:
 - Continuous Improvement: Make it a constant goal to optimize and improve your initiatives. Apply the lessons you've learned from the past to your upcoming endeavors.
 - Record Keeping: Maintaining documentation of project progress, milestones, and data can facilitate performance analysis and enable data-driven decision-making for subsequent projects.
