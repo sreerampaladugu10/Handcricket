@@ -92,4 +92,4 @@ The Hand Cricket game project was an enjoyable experience, and we look forward t
 ## Contributors:
 * Sreeram Paladugu
 * Akshatha Arkit
-* Sai Ramakrishna komaravolu
+* Sai Ramakrishna Yashwanth komaravolu
